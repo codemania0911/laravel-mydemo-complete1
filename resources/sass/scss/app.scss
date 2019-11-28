@@ -1,0 +1,120 @@
+@import '_variables_template';
+
+#diet-logo {
+  text-align: left;
+}
+
+.diet-slider {
+  .carousel-indicators {
+    position: none;
+  }
+
+  h6 {
+    margin: 30px 0;
+  }
+}
+.svg-material,
+.svg-male,
+.svg-female {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 20px;
+
+  &:hover {
+    border-color: $colorMain2;
+  }
+}
+
+.svg-male {
+  padding: 10px 30px;
+  img {
+    height: 120px;
+  }
+}
+
+.svg-female {
+  padding: 10px 35px;
+
+  img {
+    height: 120px;
+  }
+}
+
+.diet-step-2 {
+  .btn {
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    max-width: 545px;
+    margin: 30px auto 30px;
+
+    &:hover {
+      border-color: $colorMain2;
+    }
+  }
+}
+
+.diet-step-3 {
+  .btn {
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    max-width: 545px;
+    margin: 30px auto 30px;
+
+    &:hover {
+      background-color: $colorMain2;
+      border-color: $colorMain2;
+    }
+  }
+  .row {
+    max-width: 545px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .svg-material {
+    padding: 10px 30px;
+    &.checked {
+      border-color: $colorMain2;
+      background-color: $colorMain2;
+    }
+    img {
+      height: 120px;
+    }
+  }
+}
+
+.diet-step-4 {
+  .btn {
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    max-width: 545px;
+    margin: 30px auto 30px;
+
+    &:hover {
+      background-color: $colorMain2;
+      border-color: $colorMain2;
+    }
+  }
+  .form-row {
+    max-width: 545px;
+    margin: 30px auto 30px;
+  }
+}
+
+.diet-step-5 {
+  .btn {
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    max-width: 545px;
+    margin: 30px auto 30px;
+
+    &:hover {
+      background-color: $colorMain2;
+      border-color: $colorMain2;
+    }
+  }
+}
